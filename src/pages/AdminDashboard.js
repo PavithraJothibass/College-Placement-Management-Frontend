@@ -76,7 +76,7 @@ const AdminDashboard = () => {
         };
 
         setTimeout(loadData, 500); // Simulate a loading time of 500ms
-    }, []);
+    }, [staticStudents]);
 
     if (loading) {
         return <div>Loading...</div>;
